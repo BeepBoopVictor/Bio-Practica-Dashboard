@@ -2,6 +2,8 @@
 
 Dashboard en Streamlit para explorar, analizar y visualizar de forma interactiva el número total de células inmunes, su masa y distribución por tejidos/sistemas en el cuerpo humano, basado en Milo et al., PNAS (2023). Incluye visor 3D de órganos, comparativas por sistemas y tipos celulares, análisis avanzados (PCA, correlaciones, eficiencia) y un simulador de hipótesis. El ejercicio/propósito docente está descrito en el documento de la actividad de Bioinformática incluido en el repositorio.
 
+**Autores**: Víctor Gil y María Alonso
+
 ## Contenidos del repositorio
 
 - `main.py` - aplicación principal de Streamlit con navegación por páginas, carga de datos y visualizaciones (barras, dispersión log–log, pies, tablas) y un mosaico de análisis avanzados. Gestiona también el visor 3D con mallas y el diccionario de sistemas corporales.
@@ -134,8 +136,18 @@ Explica la variación de órdenes de magnitud entre tejidos y patrones de escala
 
 - Si no hay malla real, `organs.py` ofrece un fallback con cajas paramétricas y estado del órgano (color, opacidad, visibilidad, traslaciones, rotación, escala).
 
+La siguiente imágen muestra el funcionamiento de este visor:
+
 ## Estructura de datos
 
 - **Fuente:** `data/pnas.2308511120.sd02.xlsx`. `main.py` estandariza nombres de columnas, crea un campo `tissue_norm`, define cohortes y agrega por tejido o tipo celular (suma de totales de células y masa).
 
 - **Diccionario tejido - sistema:** configurable, con normalización robusta y alias frecuentes para evitar desajustes de clave.
+
+### Ejemplos de uso 
+
+A continuación se muestran más ejemplos del funcionamiento del dashboard.
+
+<img width="1388" height="832" alt="cohortePorTejido" src="https://github.com/user-attachments/assets/9f6c1e27-536b-4332-937f-1507fd3c5ce1" />
+
+
