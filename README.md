@@ -136,7 +136,10 @@ Explica la variación de órdenes de magnitud entre tejidos y patrones de escala
 
 - Si no hay malla real, `organs.py` ofrece un fallback con cajas paramétricas y estado del órgano (color, opacidad, visibilidad, traslaciones, rotación, escala).
 
-La siguiente imágen muestra el funcionamiento de este visor:
+La siguiente imágen muestra el funcionamiento de este visor:ç
+
+<img width="1412" height="605" alt="organo" src="https://github.com/user-attachments/assets/22cd6fe3-ce0d-4aac-aa66-b2b7c5f8bb95" />
+
 
 ## Estructura de datos
 
@@ -148,6 +151,14 @@ La siguiente imágen muestra el funcionamiento de este visor:
 
 A continuación se muestran más ejemplos del funcionamiento del dashboard.
 
+<img width="1417" height="792" alt="celulasportejido" src="https://github.com/user-attachments/assets/ad24c37c-68f5-4e91-acb4-2bcbf1e8ea73" />
+
+
 <img width="1388" height="832" alt="cohortePorTejido" src="https://github.com/user-attachments/assets/9f6c1e27-536b-4332-937f-1507fd3c5ce1" />
 
+<img width="1332" height="562" alt="toptejidoscelula" src="https://github.com/user-attachments/assets/6966fbe7-71cd-4f1f-bb1f-92ae7f2174a2" />
 
+<img width="725" height="446" alt="PCAtejido3d" src="https://github.com/user-attachments/assets/3feb9b2c-5dbd-426d-8f43-b2a80664c9a6" />
+<img width="1395" height="832" alt="numero_tipo_celulas" src="https://github.com/user-attachments/assets/369b6e3c-12ea-44f5-9dc6-c67d868b860d" />
+
+<img width="1427" height="610" alt="matriz_cohorte" src="https://github.com/user-attachments/assets/59ad9b6d-7bcf-4e01-b46b-03e401381e98" />
