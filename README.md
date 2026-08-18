@@ -4,6 +4,8 @@ Dashboard en Streamlit para explorar, analizar y visualizar de forma interactiva
 
 **Autores**: Víctor Gil y María Alonso
 
+**Link**: [inmuno3d.streamlit.app](https://inmuno3d.streamlit.app/)
+
 ## Contenidos del repositorio
 
 - `main.py` - aplicación principal de Streamlit con navegación por páginas, carga de datos y visualizaciones (barras, dispersión log–log, pies, tablas) y un mosaico de análisis avanzados. Gestiona también el visor 3D con mallas y el diccionario de sistemas corporales.
