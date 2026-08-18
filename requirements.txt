@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+openpyxl
+trimesh
+meshio
+numpy
+scikit-learn
+scipy
